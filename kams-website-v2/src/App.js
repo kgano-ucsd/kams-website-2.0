@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import BgWrapper from "./atoms/BgWrapper";
+import Banner from "./atoms/Banner";
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <BgWrapper>
+      <Banner />
+    </BgWrapper>
   );
 }
 
