@@ -1,12 +1,17 @@
+import "../index.css"
+
 
 export default function Hello() {
 
     return (
-        <div className="p-4 px-8 w-screen grid place-items-center">
-            <h1 className="text-2xl font-display" >
-                Sometimes I'll start a line of code and I don't even know where it is going
+        <div className="grid place-items-center h-full">
+            <h1 className="text-3xl font-semibold font-display text-white" >
+                {"hi, my name is "}
+                <span className="magic">
+                <span className="magic-text"> kameron gano </span> 
+                </span>
+                {" and i study computer engineering at ucsd."}
             </h1>
-
         </div>
     )
 }
