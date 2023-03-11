@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {  
-  --purple: rgb(123, 31, 162);
-  --violet: rgb(103, 58, 183);
-  --pink: rgb(244, 143, 177);
+  --purple: rgb(31, 94, 162);
+  --violet: rgb(58, 139, 183);
+  --pink: rgb(143, 212, 244);
 }
 
 @keyframes background-pan {
