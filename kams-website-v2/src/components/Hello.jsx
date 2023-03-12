@@ -7,8 +7,8 @@ export default function Hello({ children }) {
         <div className="grid place-items-center h-full">
             <div className="flex flex-col">
             <div>
-                <h1 className="text-3xl font-semibold font-display text-white" >
-                    {"hi, my name is kameron gano and i study "}
+                <h1 className="text-4xl font-semibold font-display text-white" >
+                    {" my name is kameron gano and i study "}
                     <span className="magic">
                         <span className="magic-text">
                             computer engineering

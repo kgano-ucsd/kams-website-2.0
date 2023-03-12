@@ -1,5 +1,5 @@
 
-export default function({ children }) {
+export default function Banner() {
 
     return (
         <>
