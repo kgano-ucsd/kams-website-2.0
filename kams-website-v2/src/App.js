@@ -14,7 +14,7 @@ function App() {
             {"i like "} 
             <span className="magic">
               <span className="magic-text">
-                <span>
+                <span className="font-semibold">
                 <Typewriter
                   words={[
                           'being active.', 
@@ -22,9 +22,8 @@ function App() {
                           'ai and ml.',
                           'building cool things.' 
                         ]}
-                  cursorStyle='|'
                   typeSpeed={70}
-                  deleteSpeed={50}
+                  deleteSpeed={70}
                   delaySpeed={1000}
                 />
                 </span>
