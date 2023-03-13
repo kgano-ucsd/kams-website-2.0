@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 :root {  
-  --purple: rgb(153, 31, 162);
-  --violet: rgb(114, 58, 183);
-  --pink: rgb(244, 143, 236);
+  --purple: #991fa2;
+  --violet: #723ab7;
+  --pink: #f58fec;
+}
+
+bg-wrapper {
+  background-image: url("layered-waves-haikei.png");
 }
 
 @keyframes background-pan {
