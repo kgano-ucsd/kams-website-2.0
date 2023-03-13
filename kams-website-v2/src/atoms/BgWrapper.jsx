@@ -1,9 +1,9 @@
 
-export default function BgWrapper({ children }) {
+export default function BgWrapper() {
 
     return (
-        <div className="bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-gray-900 to-black h-screen w-screen">
-            { children }
+        <div className="h-screen w-screen">
+
         </div>
     )
 }

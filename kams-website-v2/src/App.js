@@ -3,41 +3,36 @@ import Banner from "./atoms/Banner";
 import Hello from "./components/Hello";
 import { Typewriter } from 'react-simple-typewriter'
 
+
+
 function App() {
   return (
-    <div className="flex flex-col overflow-y-auto">
-      <BgWrapper>
-      <Banner />
-      <div className="h-[77%]">
-        <Hello>
-          <p className="text-center text-white text-2xl">
-            {"i like "} 
-            <span className="magic">
-              <span className="magic-text">
-                <span className="font-semibold">
-                <Typewriter
-                  words={[
-                          'being active.', 
-                          'cooking food.', 
-                          'ai and ml.',
-                          'building cool things.' 
-                        ]}
-                  typeSpeed={70}
-                  deleteSpeed={70}
-                  delaySpeed={1000}
-                />
+      <div className="h-screen w-screen bg-wrapper">
+          <Banner />
+          <div className="h-[77%]">
+            <Hello>
+              <p className="text-center text-white text-2xl">
+                {"i like "} 
+                <span className="magic">
+                  <span className="magic-text">
+                    <span className="font-normal">
+                    <Typewriter
+                      words={[
+                              'being active.', 
+                              'ai and ml.',
+                              'building cool things.' 
+                            ]}
+                      typeSpeed={70}
+                      deleteSpeed={70}
+                      delaySpeed={1000}
+                    />
+                    </span>
+                  </span>
                 </span>
-              </span>
-            </span>
-          </p>
-        </Hello>
-      </div>
-      </BgWrapper>
-      <div>
-        TEST
-      </div>
-    </div>
-    
+              </p>
+            </Hello>
+          </div>
+        </div>                 
   );
 }
 
