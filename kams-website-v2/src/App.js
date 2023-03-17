@@ -9,7 +9,8 @@ import background from "./layered-waves-haikei.svg"
 function App() {
   return (
       <div style={{backgroundImage: `url(${background})`,
-                   backgroundRepeat: false,}} className="h-screen w-screen">
+                   backgroundRepeat: false,
+                   backgroundSize: "cover"}} className="h-screen w-screen">
           <Banner />
           <div className="h-[77%]">
             <Hello>
