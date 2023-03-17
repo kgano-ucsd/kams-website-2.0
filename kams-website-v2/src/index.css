@@ -9,7 +9,7 @@
 }
 
 bg-wrapper {
-  background-image: url("layered-waves-haikei.png");
+  background-image: url("layered-waves-haikei.svg");
 }
 
 @keyframes background-pan {

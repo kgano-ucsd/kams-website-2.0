@@ -1,13 +1,14 @@
 import BgWrapper from "./atoms/BgWrapper";
 import Banner from "./atoms/Banner";
 import Hello from "./components/Hello";
-import { Typewriter } from 'react-simple-typewriter'
+import { Typewriter } from 'react-simple-typewriter';
+import background from "./layered-waves-haikei.svg"
 
 
 
 function App() {
   return (
-      <div className="h-screen w-screen bg-wrapper">
+      <div style={{backgroundImage: `url(${background})`}} className="h-screen w-screen">
           <Banner />
           <div className="h-[77%]">
             <Hello>
