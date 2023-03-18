@@ -8,11 +8,11 @@ import background from "./layered-waves-haikei.svg"
 
 function App() {
   return (
-      <div style={{backgroundImage: `url(${background})`,
+      <div  className="h-screen w-screen overflow-auto">
+          <section style={{backgroundImage: `url(${background})`,
                    backgroundRepeat: false,
-                   backgroundSize: "cover"}} className="h-screen w-screen">
-          <Banner />
-          <div className="h-[77%]">
+                   backgroundSize: "cover"}} className="h-full w-full ">
+            <Banner />
             <Hello>
               <p className="text-center text-white text-2xl">
                 {"i like "} 
@@ -34,7 +34,10 @@ function App() {
                 </span>
               </p>
             </Hello>
-          </div>
+          </section>
+          <section className="w-full h-full bg-white">
+
+          </section>
         </div>                 
   );
 }
