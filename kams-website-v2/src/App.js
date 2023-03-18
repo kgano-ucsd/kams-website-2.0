@@ -10,12 +10,12 @@ import about from "./about.svg";
 function App() {
   return (
       <div  className="w-screen h-screen overflow-auto">
-          
           <section style=
                  {{backgroundImage: `url(${landing})`,
                    backgroundRepeat: false,
                    backgroundSize: "cover"}} 
-                   className="h-full w-full relative">
+                   className="h-full w-full relative"
+          >
             <Hello>
               <p className="text-center text-white text-2xl">
                 {"i like "} 
