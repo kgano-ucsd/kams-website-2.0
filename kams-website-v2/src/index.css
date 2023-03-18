@@ -53,7 +53,6 @@ body {
 
 h1 {
   color: white;
-  font-family: "Rubik", sans-serif;
   font-size: clamp(2em, 2vw, 4em);
   font-weight: 400;
   margin: 0px;
@@ -90,6 +89,9 @@ h1 > .magic > .magic-star > svg > path {
 
 h1 > .magic > .magic-text {
   animation: background-pan 3s linear infinite;
+  font-family: "Lobster";
+  font-variant: normal;
+  font-style: normal;
   background: linear-gradient(
     to right,
     var(--purple),

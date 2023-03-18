@@ -14,10 +14,14 @@ function App() {
                  {{backgroundImage: `url(${landing})`,
                    backgroundRepeat: false,
                    backgroundSize: "cover"}} 
-                   className="h-full w-full relative"
+                   className="h-full w-full relative p-8 flex flex-col"
           >
+            <div className="h-1/8">
+              <Banner/>
+            </div>
+            <div className="h-full">
             <Hello>
-              <p className="text-center text-white text-2xl">
+              <p className="text-center text-white text-3xl">
                 {"i like "} 
                 <span className="magic">
                   <span className="magic-text">
@@ -37,6 +41,7 @@ function App() {
                 </span>
               </p>
             </Hello>
+            </div>
           </section>
           <section 
             style=
@@ -45,7 +50,9 @@ function App() {
               backgroundSize: "cover"}}
               className="w-full h-full relative"
           >
-
+              <h1 style={{fontFamily: "Lobster", fontStyle: "normal"}} className="text-6xl text-left text-white font-semibold relative ">
+                  about
+              </h1>
           </section>
         </div>                 
   );
