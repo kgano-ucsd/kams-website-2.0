@@ -8,10 +8,6 @@
   --pink: #f58fec;
 }
 
-bg-wrapper {
-  background-image: url("layered-waves-haikei.svg");
-}
-
 @keyframes background-pan {
   from {
     background-position: 0% center;
