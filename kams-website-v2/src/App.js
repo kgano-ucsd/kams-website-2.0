@@ -2,17 +2,20 @@ import BgWrapper from "./atoms/BgWrapper";
 import Banner from "./atoms/Banner";
 import Hello from "./components/Hello";
 import { Typewriter } from 'react-simple-typewriter';
-import background from "./layered-waves-haikei.svg"
+import landing from "./layered-waves-haikei.svg"
+import about from "./about.svg";
 
 
 
 function App() {
   return (
-      <div  className="h-screen w-screen overflow-auto">
-          <section style={{backgroundImage: `url(${background})`,
+      <div  className="w-screen h-screen overflow-auto">
+          
+          <section style=
+                 {{backgroundImage: `url(${landing})`,
                    backgroundRepeat: false,
-                   backgroundSize: "cover"}} className="h-full w-full ">
-            <Banner />
+                   backgroundSize: "cover"}} 
+                   className="h-full w-full relative">
             <Hello>
               <p className="text-center text-white text-2xl">
                 {"i like "} 
@@ -35,7 +38,13 @@ function App() {
               </p>
             </Hello>
           </section>
-          <section className="w-full h-full bg-white">
+          <section 
+            style=
+            {{backgroundImage: `url(${about})`,
+              backgroundRepeat: false,
+              backgroundSize: "cover"}}
+              className="w-full h-full relative"
+          >
 
           </section>
         </div>                 
