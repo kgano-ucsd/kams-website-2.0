@@ -8,8 +8,9 @@ export default function Banner() {
             <div className="flex flex-row">
             <div className="flex-grow border-box">
                     <h1 
-                        style={{fontFamily: "Lobster"}}
-                        className="text-2xl font-semibold font-display p-3 text-left text-white">
+                    style={{fontFamily: "Lobster"}}
+                    className="text-3xl font-semibold font-display p-3 text-left text-white"
+                    >
                         kameron gano
                     </h1>
                 </div>
