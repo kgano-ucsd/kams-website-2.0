@@ -10,7 +10,9 @@ export default function Hello({ children }) {
                 <h1 className="text-5xl font-semibold font-display text-white" >
                     {" my name is kameron gano and i study "}
                     <span className="magic">
-                        <span className="magic-text text-6xl px-1">
+                        <span 
+                        style={{letterSpacing: "1px"}}
+                        className="magic-text text-6xl px-1">
                             computer engineering
                         </span>
                     </span>

@@ -14,7 +14,9 @@ export default function About() {
               <h1 
                 style=
                 {{fontFamily: "Lobster", 
-                  fontStyle: "normal"}} 
+                  fontStyle: "normal",
+                  letterSpacing: "2px"
+                }} 
                 className="text-6xl text-left text-white font-semibold relative "
               >
                   about 
