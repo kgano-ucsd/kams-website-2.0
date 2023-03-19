@@ -17,7 +17,7 @@ export default function About() {
                   fontStyle: "normal"}} 
                 className="text-6xl text-left text-white font-semibold relative "
               >
-                  About 
+                  about 
               </h1>
           </section>
     );
