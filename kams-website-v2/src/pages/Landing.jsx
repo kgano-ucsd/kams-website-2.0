@@ -25,7 +25,7 @@ export default function Landing() {
                     <span className="font-normal">
                     <Typewriter
                       words={[
-                              'being active.', 
+                              'hardware and software.', 
                               'ai and ml.',
                               'building cool things.' 
                             ]}
