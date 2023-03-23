@@ -12,14 +12,9 @@ export default function About() {
               className="w-full h-full relative"
           >
               <h1 
-                style=
-                {{fontFamily: "Lobster", 
-                  fontStyle: "normal",
-                  letterSpacing: "2px"
-                }} 
                 className="text-6xl text-left text-white font-semibold relative "
               >
-                  about 
+                  about me
               </h1>
           </section>
     );
