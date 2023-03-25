@@ -20,41 +20,43 @@ export default function Landing() {
             <div className="h-1/8">
               <Banner/>
             </div>
-            <div className="">
-                <Hello>
-                  <p className="text-center text-white text-3xl">
-                    {"i like "} 
-                    <span className="magic">
-                      <span className="magic-text">
-                        <span className="font-normal">
-                        <Typewriter
-                          words={[
-                                  'hwe and swe.', 
-                                  'ai and ml.',
-                                  'building cool things.' 
-                                ]}
-                          typeSpeed={50}
-                          deleteSpeed={50}
-                          delaySpeed={1000}
-                        />
+            <div className="h-full">
+              <div className="h-1/4">
+                  <Hello>
+                    <p className="text-center text-white text-3xl">
+                      {"i like "} 
+                      <span className="magic">
+                        <span className="magic-text">
+                          <span className="font-normal">
+                          <Typewriter
+                            words={[
+                                    'hwe and swe.', 
+                                    'ai and ml.',
+                                    'building cool things.' 
+                                  ]}
+                            typeSpeed={50}
+                            deleteSpeed={50}
+                            delaySpeed={1000}
+                          />
+                          </span>
                         </span>
                       </span>
-                    </span>
-                  </p>
-                </Hello>
-              </div>
-              <div className="grid place-items-center">
-                <div className="flex flex-row">
-                  <div 
-                    className=" px-5">
-                    <Link text="my github" img={github}/>
+                    </p>
+                  </Hello>
+                </div>
+                <div className="grid place-items-center py-8">
+                  <div className="flex flex-row">
+                    <div 
+                      className=" px-5">
+                      <Link text="my github" img={github}/>
+                    </div>
+                    <div className=" px-5">
+                      <Link text="linkedin" img={linkedin}/>
+                    </div> 
                   </div>
-                  <div className=" px-5">
-                    <Link text="linkedin" img={linkedin}/>
-                  </div> 
                 </div>
               </div>
-              
+                
               
           </section>
     );
