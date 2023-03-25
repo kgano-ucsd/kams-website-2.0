@@ -1,6 +1,7 @@
 import "../index.css"
 export default function Link({
-    text="default"
+    text="default",
+    img=null,
 }) {
 
     return (
@@ -8,7 +9,18 @@ export default function Link({
             type="submit"
             className="landing-link font-medium text-white text-xl" 
         >
-            { text }
+            {
+                !img ? 
+                 text  :
+                <span className="inline-block">
+                    <img src={img}>
+                    
+                    </img>
+                    { text }
+                </span>
+                
+            }
+            
         </button>
     );
 }
