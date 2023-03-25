@@ -20,7 +20,7 @@ export default function Landing() {
             <div className="h-1/8">
               <Banner/>
             </div>
-            <div className="h-full">
+            <div className="">
                 <Hello>
                   <p className="text-center text-white text-3xl">
                     {"i like "} 
