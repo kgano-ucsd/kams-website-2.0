@@ -19,7 +19,7 @@ export default function Landing() {
             <div className="h-1/8">
               <Banner/>
             </div>
-            <div className="h-full">
+            <div className="h-[75%]">
                 <Hello>
                   <p className="text-center text-white text-3xl">
                     {"i like "} 
@@ -42,19 +42,15 @@ export default function Landing() {
                   </p>
                 </Hello>
               </div>
-              <div className="grid place-items-center">
-                  <div className="flex flex-row ">
-                    <div className="w-1/3 align-right p-3">
-                      <Link text="my github" img={github}/>
-                    </div>
-                    <div className="w-1/3 align-center p-3">
-                      <Link text="my github" />
-                    </div>
-                    <div className="w-1/3 align-left p-3">
-                      <Link text="my github" />
-                    </div>
-                  </div>  
+              <div className="h-full flex flex-row">
+                  <div className="w-1/2 justify-right">
+                    <Link text="my github" img={github}/>
+                  </div>
+                  <div className="w-1/2 justify-left">
+                    <Link text="my github" />
+                  </div> 
                 </div>
+              
           </section>
     );
 }
