@@ -15,13 +15,14 @@ export default function Landing() {
                 //  {{backgroundImage: `url(${landing})`,
                 //    backgroundRepeat: false,
                 //    backgroundSize: "cover"}} 
-                  className="h-full w-full relative p-8 bg-[#121212] flex flex-col"
+                  className="flex flex-col h-full w-full relative p-8 bg-[#121212] "
           >
             <div className="h-1/8">
               <Banner/>
             </div>
-            <div className="h-full">
-              <div className="h-1/4">
+            <div>
+            <div className="h-full grid place-items-center">
+              <div className="grid grid-rows-2 gap-2 place-items-center">
                   <Hello>
                     <p className="text-center text-white text-3xl">
                       {"i like "} 
@@ -43,19 +44,20 @@ export default function Landing() {
                       </span>
                     </p>
                   </Hello>
-                </div>
-                <div className="grid place-items-center py-8">
-                  <div className="flex flex-row">
-                    <div 
-                      className=" px-5">
-                      <Link text="my github" img={github}/>
+                  <div className="">
+                    <div className="flex flex-row">
+                      <div 
+                        className=" px-5">
+                        <Link text="my github" img={github}/>
+                      </div>
+                      <div className=" px-5">
+                        <Link text="linkedin" img={linkedin}/>
+                      </div> 
                     </div>
-                    <div className=" px-5">
-                      <Link text="linkedin" img={linkedin}/>
-                    </div> 
                   </div>
                 </div>
               </div>
+            </div>
                 
               
           </section>
