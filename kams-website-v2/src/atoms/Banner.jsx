@@ -17,14 +17,14 @@ export default function Banner() {
                     </h2>
                 </div>
                 <div className="w-1/6 text-center p-1">
-                    <h2 className="transform text-xl font-medium font-display text-white hover:transition duration-500 hover:font-semibold hover:scale-100">
+                    <h2 className="transform transition duration-600 scale-100 text-xl font-medium font-display text-white hover:transition duration-600 hover:scale-125">
                         <a href="#about"> 
                             about
                         </a>
                     </h2>
                 </div>
                 <div className="w-1/6 text-center p-1">
-                    <h2 className="transform text-xl font-medium font-display text-white hover:transition duration-500 hover:font-semibold hover:scale-100">
+                    <h2 className="transform transition duration-600 scale-100 text-xl font-medium font-display text-white hover:transition duration-600 hover:scale-125">
                         <a href="">
                             projects
                         </a>

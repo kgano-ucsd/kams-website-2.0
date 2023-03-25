@@ -12,7 +12,7 @@ export default function Hello({ children }) {
                     <span className="magic">
                         <span 
                         style={{letterSpacing: "1px"}}
-                        className="magic-text text-6xl px-1">
+                        className="magic-text">
                             computer engineering
                         </span>
                     </span>
@@ -20,7 +20,7 @@ export default function Hello({ children }) {
                     
                 </h1>
             </div>
-                <div className="py-2">
+                <div className="">
                         { children }
                 </div>
             </div>

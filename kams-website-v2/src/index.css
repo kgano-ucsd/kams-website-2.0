@@ -41,6 +41,7 @@ a:hover:after {
   }
 }
 
+
 div {
   scroll-behavior: smooth;
 }
@@ -100,6 +101,30 @@ h1 > .magic > .magic-star {
   width: var(--size);
 }
 
+
+.landing-link {
+  
+  border: 1px solid;
+  border-color: var(--violet);
+  scale: 1;
+  position: relative;
+  transition:  scale 600ms;
+  background-size: 200%;
+  white-space: nowrap;
+  border-radius: 6px;
+  padding: 12px 12px;
+}
+.landing-link:hover {
+  
+  border: 1px solid;
+  border-color: var(--pink);
+  background-color: #121212;
+  scale: 1.2;
+  transition: border-color 600ms, scale 600ms;  
+}
+
+
+
 h1 > .magic > .magic-star > svg {
   animation: rotate 1000ms linear infinite;
   display: block;
@@ -112,7 +137,6 @@ h1 > .magic > .magic-star > svg > path {
 
 h1 > .magic > .magic-text {
   animation: background-pan 3s linear infinite;
-  font-family: "Lobster";
   font-variant: normal;
   font-style: normal;
   background: linear-gradient(
