@@ -7,16 +7,18 @@ export default function Link({
     return (
         <button
             type="submit"
-            className="landing-link font-medium text-white text-xl" 
+            className="landing-link font-medium text-white text-xl grid place-items-center" 
         >
             {
                 !img ? 
                  text  :
-                <span className="inline-block">
-                    <img src={img}>
+                <span className="flex flex-row">
+                    <img src={img} className="w-1/3">
                     
                     </img>
-                    { text }
+                    <span className="w-2/3">
+                        { text }
+                    </span>
                 </span>
                 
             }

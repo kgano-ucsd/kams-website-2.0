@@ -19,7 +19,7 @@ export default function Landing() {
             <div className="h-1/8">
               <Banner/>
             </div>
-            <div className="h-[77%]">
+            <div className="h-full">
                 <Hello>
                   <p className="text-center text-white text-3xl">
                     {"i like "} 
@@ -42,8 +42,8 @@ export default function Landing() {
                   </p>
                 </Hello>
               </div>
-              <div className="h-fit">
-                  <div className="flex flex-row">
+              <div className="grid place-items-center">
+                  <div className="flex flex-row ">
                     <div className="w-1/3 align-right p-3">
                       <Link text="my github" img={github}/>
                     </div>
