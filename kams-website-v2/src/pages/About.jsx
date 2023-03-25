@@ -10,7 +10,7 @@ export default function About() {
             // {{backgroundImage: `url(${about})`,
             //   backgroundRepeat: false,
             //   backgroundSize: "cover"}}
-              className=" p-6 w-full h-full relative bg-[#121212] grid place-items-center"
+              className=" p-6 w-full h-full relative bg-[#001220] grid place-items-center"
           >
             
           </section>

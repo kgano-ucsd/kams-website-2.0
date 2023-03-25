@@ -118,7 +118,6 @@ h1 > .magic > .magic-star {
   
   border: 1px solid;
   border-color: var(--pink);
-  background-color: #121212;
   scale: 1.2;
   font-weight: 500;
   transition: font-weight 600ms, border-color 600ms, scale 600ms;  
