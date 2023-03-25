@@ -4,6 +4,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import landing from "./landing.svg"
 import Link from "../atoms/Link";
 import github from "./github-mark-white.svg";
+import linkedin from "./linkedin-square.png"
 
 
 export default function Landing() {
@@ -42,15 +43,18 @@ export default function Landing() {
                   </p>
                 </Hello>
               </div>
-              <div className="flex flex-row">
+              <div className="grid place-items-center">
+                <div className="flex flex-row">
                   <div 
-                    className="w-1/2 flex-end">
+                    className=" px-5">
                     <Link text="my github" img={github}/>
                   </div>
-                  <div className="w-1/2 flex-start">
-                    <Link text="linkedin" />
+                  <div className=" px-5">
+                    <Link text="linkedin" img={linkedin}/>
                   </div> 
                 </div>
+              </div>
+              
               
           </section>
     );
