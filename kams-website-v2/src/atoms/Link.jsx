@@ -12,12 +12,12 @@ export default function Link({
             {
                 !img ? 
                  text  :
-                <span className="flex flex-row">
+                <span className="flex flex-row p-1">
                     <img src={img} className="w-1/3">
                     
                     </img>
-                    <span className="w-2/3">
-                        { text }
+                    <span className="w-2/3 p-1">
+                        <span className="px-1">{ text }</span>
                     </span>
                 </span>
                 
