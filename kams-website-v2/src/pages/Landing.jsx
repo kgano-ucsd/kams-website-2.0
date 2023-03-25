@@ -17,10 +17,9 @@ export default function Landing() {
                 //    backgroundSize: "cover"}} 
                   className="flex flex-col h-full w-full relative p-8 bg-[#121212] "
           >
-            <div className="h-1/8">
+            <section className="h-1/8">
               <Banner/>
-            </div>
-            <div>
+            </section>
             <div className="h-full grid place-items-center">
               <div className="grid grid-rows-2 gap-2 place-items-center">
                   <Hello>
@@ -57,7 +56,6 @@ export default function Landing() {
                   </div>
                 </div>
               </div>
-            </div>
                 
               
           </section>
