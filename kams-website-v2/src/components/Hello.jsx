@@ -4,7 +4,7 @@ import "../index.css"
 export default function Hello({ children }) {
 
     return (
-        <div className="grid place-items-center h-full ">
+        <div className=" grid place-items-center h-full ">
             <div className="flex flex-col">
             <div>
                 <h1 className="text-5xl font-semibold font-display text-white" >

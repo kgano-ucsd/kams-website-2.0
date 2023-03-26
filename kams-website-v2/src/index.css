@@ -101,9 +101,11 @@ h1 > .magic > .magic-star {
   width: var(--size);
 }
 
+.animated-hello {
+  animation: ease 3s
+}
 
 .landing-link {
-  
   border: 1px solid;
   border-color: var(--violet);
   scale: 1;

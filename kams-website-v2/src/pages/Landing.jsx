@@ -20,8 +20,8 @@ export default function Landing() {
             <div className="h-1/8">
               <Banner/>
             </div>
-            <div className="h-[88%] grid place-items-center">
-              <div className="grid gap-2 place-items-center">
+            <div className="animated-hello h-[88%] grid place-items-center">
+              <div className="grid place-items-center ">
                   <Hello>
                     <p className="text-center text-white text-3xl">
                       {"i like "} 
@@ -43,7 +43,7 @@ export default function Landing() {
                       </span>
                     </p>
                   </Hello>
-                  <div className="py-1">
+                  <div className="py-4">
                     <div className="flex flex-row">
                       <div 
                         className=" px-5">
