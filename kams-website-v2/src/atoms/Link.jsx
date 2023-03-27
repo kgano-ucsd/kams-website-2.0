@@ -2,14 +2,11 @@ import "../index.css"
 export default function Link({
     text="default",
     img=null,
-    onClick= () => {},
 }) {
 
     return (
-        <button
-            type="button"
+        <span
             className="landing-link font-medium text-white text-xl grid place-items-center" 
-            onClick={onClick}
         >
             {
                 !img ? 
@@ -23,6 +20,6 @@ export default function Link({
                </div>
                 
             }
-        </button>
+        </span>
     );
 }

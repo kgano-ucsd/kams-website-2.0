@@ -45,13 +45,12 @@ export default function Landing() {
                   </Hello>
                   <div className="py-4">
                     <div className="flex flex-row">
-                      <div 
-                        className=" px-5">
-                        <Link text="my github" img={github} onClick={window.location.href = "https://github.com/kgano-ucsd"}/>
-                      </div>
-                      <div className=" px-5">
-                        <Link text="linkedin" img={linkedin} onClick={window.location.href = "https://www.linkedin.com/in/kameron-gano-96704a243/"}/>
-                      </div> 
+                      <a href = "https://github.com/kgano-ucsd" className="px-5">
+                        <Link text="my github" img={github} />
+                      </a>
+                      <a href = "https://www.linkedin.com/in/kameron-gano-96704a243/" className=" px-5">
+                        <Link text="linkedin" img={linkedin} />
+                      </a> 
                     </div>
                   </div>
                 </div>
