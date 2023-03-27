@@ -11,10 +11,10 @@ export default function Landing() {
 
     return(
         <section 
-                //  style=
-                //  {{backgroundImage: `url(${landing})`,
-                //    backgroundRepeat: false,
-                //    backgroundSize: "cover"}} 
+                 style=
+                 {{backgroundImage: `url(${landing})`,
+                   backgroundRepeat: false,
+                   backgroundSize: "cover"}} 
                   className="flex flex-col h-full w-full relative p-8 bg-[#001220] "
           >
             <div className="h-1/8">
@@ -47,10 +47,10 @@ export default function Landing() {
                     <div className="flex flex-row">
                       <div 
                         className=" px-5">
-                        <Link text="my github" img={github}/>
+                        <Link text="my github" img={github} onClick={window.location.href = "https://github.com/kgano-ucsd"}/>
                       </div>
                       <div className=" px-5">
-                        <Link text="linkedin" img={linkedin}/>
+                        <Link text="linkedin" img={linkedin} onClick={window.location.href = "https://www.linkedin.com/in/kameron-gano-96704a243/"}/>
                       </div> 
                     </div>
                   </div>
