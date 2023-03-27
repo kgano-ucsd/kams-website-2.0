@@ -9,11 +9,11 @@
 }
 
 
-a {
+.banner-elem {
   display: inline-block;
   position: relative;
 }
-a:after {    
+.banner-elem:after {    
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -25,7 +25,7 @@ a:after {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-a:hover:after { 
+.banner-elem:hover:after { 
   width: 100%; 
   left: 0; 
 }
@@ -66,14 +66,14 @@ div {
   }
 }
 
-body {
+/* body {
   background-color: rgb(10, 10, 10);
   display: grid;
   height: 100vh;
   margin: 0px;
   overflow: hidden;
   place-items: center;
-}
+} */
 
 h1 {
   color: white;
@@ -101,9 +101,6 @@ h1 > .magic > .magic-star {
   width: var(--size);
 }
 
-.animated-hello {
-  animation: ease 3s
-}
 
 .landing-link {
   border: 1px solid;
@@ -122,7 +119,8 @@ h1 > .magic > .magic-star {
   border-color: var(--pink);
   scale: 1.1;
   font-weight: 500;
-  transition: font-weight 600ms, border-color 600ms, scale 600ms;  
+  transition: font-weight 600ms, border-color 600ms, scale 600ms;
+  backdrop-filter: blur(3px);  
 }
 
 
@@ -156,21 +154,6 @@ h1 > .magic > .magic-text {
 
 /* -- YouTube Link Styles -- */
 
-#source-link {
-  top: 60px;
-}
-
-#source-link > i {
-  color: rgb(94, 106, 210);
-}
-
-#yt-link {  
-  top: 10px;
-}
-
-#yt-link > i {
-  color: rgb(239, 83, 80);
-}
 
 .meta-link {
   align-items: center;

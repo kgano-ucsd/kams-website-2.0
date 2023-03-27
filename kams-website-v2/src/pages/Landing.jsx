@@ -1,26 +1,26 @@
 import Banner from "../atoms/Banner";
 import Hello from "../components/Hello";
 import { Typewriter } from 'react-simple-typewriter';
-import landing from "./landing.svg"
+import landing from "../images/landing.svg"
 import Link from "../atoms/Link";
-import github from "./github-mark-white.svg";
-import linkedin from "./linkedin-square.png"
+import github from "../images/github-mark-white.svg";
+import linkedin from "../images/linkedin-square.png"
 
 
 export default function Landing() {
 
     return(
         <section 
-                 style=
-                 {{backgroundImage: `url(${landing})`,
-                   backgroundRepeat: false,
-                   backgroundSize: "cover"}} 
+                //  style=
+                //  {{backgroundImage: `url(${landing})`,
+                //    backgroundRepeat: false,
+                //    backgroundSize: "cover"}} 
                   className="flex flex-col h-full w-full relative p-8 bg-[#001220] "
           >
             <div className="h-1/8">
               <Banner/>
             </div>
-            <div className="animated-hello h-[88%] grid place-items-center">
+            <div className="h-[88%] grid place-items-center">
               <div className="grid place-items-center ">
                   <Hello>
                     <p className="text-center text-white text-3xl">
