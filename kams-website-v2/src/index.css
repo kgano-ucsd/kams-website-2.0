@@ -8,6 +8,10 @@
   --pink: #f58fec;
 }
 
+.test {
+  background-color: #ffffff;
+}
+
 
 .banner-elem {
   display: inline-block;

@@ -1,5 +1,5 @@
 import about from "../images/about.svg"
-import Link from "../atoms/Link";
+import "../index.css";
 
 export default function About() {
 
@@ -10,7 +10,7 @@ export default function About() {
             {{backgroundImage: `url(${about})`,
               backgroundRepeat: false,
               backgroundSize: "cover"}}
-              className=" p-6 w-full h-full relative bg-[#001220] grid place-items-center"
+              className="flex flex-row p-6 w-full h-full relative"
           >
             
           </section>
