@@ -12,10 +12,21 @@ export default function About() {
               backgroundSize: "cover"}}
               className="flex flex-row p-6 w-full h-full relative"
           >
-            <div className="test">
+            <div className="w-1/3 p-2">
+                <div className="test">
 
+                </div>
             </div>
-            
+            <div className="w-1/3 p-2">
+                <div className="test">
+
+                </div>
+            </div>
+            <div className="w-1/3 p-2">
+                <div className="test">
+
+                </div>
+            </div>
           </section>
     );
 }

@@ -9,8 +9,9 @@
 }
 
 .test {
-  width: 100%;
-  background-color: #001212;
+  height: 100%;
+  padding: 12px 12px;
+  background-color: #001220;
   box-shadow: #f58fec;
   border: 1px;
   border-radius: 12px;
