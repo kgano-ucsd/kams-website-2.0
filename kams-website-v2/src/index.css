@@ -9,9 +9,12 @@
 }
 
 .test {
-  background-color: #ffffff;
+  width: 100%;
+  background-color: #001212;
+  box-shadow: #f58fec;
+  border: 1px;
+  border-radius: 12px;
 }
-
 
 .banner-elem {
   display: inline-block;
