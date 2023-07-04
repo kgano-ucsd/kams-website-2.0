@@ -6,9 +6,12 @@ export default function Hello({ children }) {
     return (
         <div className=" grid place-items-center h-full ">
             <div className="flex flex-col">
-            <div>
+            <div className="">
+                <h1 className="text-5xl font-semibold font-display text-white">
+                    hi, i am kameron.
+                </h1>
                 <h1 className="text-5xl font-semibold font-display text-white" >
-                    {"my name is kameron gano and i study "}
+                    {"i study "}
                     <span className="magic">
                         <span 
                         style={{letterSpacing: "1px"}}
@@ -20,7 +23,7 @@ export default function Hello({ children }) {
                     
                 </h1>
             </div>
-                <div className="">
+                <div className="py-4">
                         { children }
                 </div>
             </div>
