@@ -1,5 +1,5 @@
 import Landing from "./pages/Landing";
-import About from "./pages/About";
+import Project from "./pages/Projects";
 
 
 
@@ -7,7 +7,7 @@ function App() {
   return (
        <div  className="w-screen h-screen overflow-auto">
           <Landing />
-          <About />
+          <Project />
         </div>                 
   );
 }

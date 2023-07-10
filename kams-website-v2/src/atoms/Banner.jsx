@@ -18,15 +18,15 @@ export default function Banner() {
                 </div>
                 <div className="w-1/6 text-center p-1">
                     <h2 className="transform transition duration-600 scale-100 text-xl font-medium font-display text-white hover:transition duration-600 hover:scale-125">
-                        <a className="banner-elem" href="#about"> 
-                            about
+                        <a className="banner-elem" href="#projects"> 
+                            projects
                         </a>
                     </h2>
                 </div>
                 <div className="w-1/6 text-center p-1">
                     <h2 className="transform transition duration-600 scale-100 text-xl font-medium font-display text-white hover:transition duration-600 hover:scale-125">
                         <a className="banner-elem" href="">
-                            projects
+                            about
                         </a>
                     </h2>
                 </div>

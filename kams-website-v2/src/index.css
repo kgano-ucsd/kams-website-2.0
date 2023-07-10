@@ -12,9 +12,23 @@
   height: 100%;
   padding: 12px 12px;
   background-color: #001220;
-  box-shadow: #f58fec;
-  border: 1px;
+  border: 1px solid;
+  border-color: var(--violet);
+  transition: font-weight 600ms, border-color 600ms, scale 600ms;
+  scale: 1;
+  font-weight: normal;
+  position: relative;
   border-radius: 12px;
+}
+
+.test:hover {
+  
+  border: 1px solid;
+  border-color: var(--pink);
+  scale: 1.05;
+  font-weight: 500;
+  transition: font-weight 600ms, border-color 600ms, scale 600ms;
+  backdrop-filter: blur(3px);  
 }
 
 .banner-elem {

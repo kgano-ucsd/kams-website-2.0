@@ -1,11 +1,11 @@
 import about from "../images/about.svg"
 import "../index.css";
 
-export default function About() {
+export default function Projects() {
 
     return(
         <section 
-            id="about"
+            id="projects"
             style=
             {{backgroundImage: `url(${about})`,
               backgroundRepeat: false,
@@ -14,7 +14,9 @@ export default function About() {
           >
             <div className="w-1/3 p-2">
                 <div className="test">
-
+                    <span className=" font-bold text-white text-4xl p-3">
+                        stanford aimi
+                    </span>
                 </div>
             </div>
             <div className="w-1/3 p-2">
