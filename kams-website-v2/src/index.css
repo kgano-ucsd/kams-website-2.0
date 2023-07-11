@@ -14,7 +14,7 @@
   background-color: #001220;
   border: 1px solid;
   border-color: var(--violet);
-  transition: font-weight 600ms, border-color 600ms, scale 600ms;
+  transition: font-weight 600ms, border-color 600ms, scale 600ms, box-shadow 800ms;
   scale: 1;
   font-weight: normal;
   position: relative;
@@ -22,12 +22,12 @@
 }
 
 .test:hover {
-  
+  box-shadow: #f58fec 0 0 5px 5px;
   border: 1px solid;
   border-color: var(--pink);
-  scale: 1.05;
+  scale: 1.02;
   font-weight: 500;
-  transition: font-weight 600ms, border-color 600ms, scale 600ms;
+  transition: font-weight 600ms, border-color 600ms, scale 600ms, box-shadow 800ms;
   backdrop-filter: blur(3px);  
 }
 
