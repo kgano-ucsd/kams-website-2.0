@@ -10,7 +10,7 @@
 
 .test {
   height: 100%;
-  padding: 12px 12px;
+  padding: 24px 24px;
   background-color: #001220;
   border: 1px solid;
   border-color: var(--violet);
