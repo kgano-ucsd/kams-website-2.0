@@ -30,8 +30,8 @@ export default function Landing() {
                           <span className="font-normal">
                           <Typewriter
                             words={[
-                                    'hwe and swe.', 
-                                    'ai and ml.',
+                                    'designing hardware.', 
+                                    'studying the brain.',
                                     'building cool things.' 
                                   ]}
                             typeSpeed={50}

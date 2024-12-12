@@ -16,22 +16,24 @@ export default function Projects() {
             <div className="w-1/3 p-2">
                 <div className="test flex flex-col">
                     <h1 className=" font-bold text-white text-4xl p-3">
-                        stanford aimi
+                        stanford research
                     </h1>
                     {"\n"}
                     <div className="flex flex-col gap-8 h-1/2 font-medium text-white text-2xl p-3 ">
                             <div className="h-1/3">
-                                led ml project for a group of high school students @ stanford aimi center. 
+                                worked on a neuromorphic chip for edge learning and knowledge retrieval
                             </div>
                             {"\n"}
                             <div className="h-1/3">
-                                trained models to classify endotracheal tube {"(ett)"} distances in 
-                                chest ct scans as normal or abnormal.
+                                implemented dendrocentric computation with multi-gate ferroelectric field-effect transistors {"(fefets)"}
+                                for edge detection of spatiotemporal sequences
                             </div>
                             {"\n"}
                             <div className="h-1/3">
-                                used nlp to extract ett distances from radiology reports associated with
-                                each ct scan.
+                                fit and stabilized circuit compatible of a fefet
+                            </div>
+                            <div className="h-1/3">
+                                gained experience with industry standard circuit development tools
                             </div>
                     </div>
 
