@@ -1,5 +1,6 @@
 {
   "name": "kams-website",
+  "homepage": "https://kgano-ucsd.github.io/kams-website-2.0/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
